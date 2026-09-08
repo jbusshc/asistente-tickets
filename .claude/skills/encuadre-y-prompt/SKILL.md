@@ -17,7 +17,11 @@ Lee `ejecutor.md` antes de redactar. De ahí sale si el contexto son rutas o có
 
 **Lo que no aplica se descarta en voz baja.** El encuadre menciona lo que rinde. Enumerar todo lo considerado convierte una herramienta en un peaje.
 
-**Lo ambiguo se dice, no se resuelve solo.** Cuando la tarea admite dos lecturas y llevan a prompts distintos, eso es un hallazgo: se pone sobre la mesa. Elegir en silencio es exactamente el error que esta skill existe para evitar.
+**Lo crucial se pregunta; lo demás se supone y se marca.** La prueba: si la persona pudiera mirar el resultado y decir «yo quería lo otro», y las dos opciones eran defendibles, se pregunta y se espera respuesta antes de escribir el prompt. Si hay una opción claramente más probable y equivocarse se corrige barato al iterar, se supone y se deja marcada. Si no cambia el resultado, ni se menciona.
+
+**Ninguna decisión llega al prompt sin haber pasado por la persona.** Ni resuelta en silencio, ni enterrada dentro de un bloque. Si la tomó el asistente, va dicha junto al prompt: qué se eligió, por qué, y que se puede cambiar. Un prompt con una elección invisible adentro es exactamente el fallo que esta skill existe para evitar.
+
+**Duda es señal de decisión, no de falta de información.** Cuando algo se siente incómodo de redactar, casi siempre es porque hay una elección escondida ahí. Sacarla a la superficie antes de escribirla.
 
 ## El archivo
 
@@ -43,6 +47,8 @@ Responde tres cosas, breve:
 
 Si la tarea es chica y no tiene bordes, dilo en una línea y pasa al prompt.
 
+**No pases a la fase 2 con una decisión crucial abierta.** Si algo pasó la prueba de arriba y la persona todavía no lo respondió, el prompt espera. Escribirlo igual con la elección puesta por dentro convierte una pregunta de un minuto en una sesión perdida.
+
 Mira antes si en `bitacora/` hay una tarea cerrada parecida. Si la hay, nómbrala: el prompt que resultó ahí es mejor punto de partida que la hoja en blanco.
 
 ---
@@ -66,6 +72,10 @@ Lee `referencia/prompting.md` antes de redactar. Los bloques son un punto de par
 El criterio de aceptación sirve dos veces: guía al ejecutor y después es la lista con que la persona valida. Escríbelo pensando en la segunda, que es su trabajo.
 
 Lo que no sepas, déjalo como pregunta dentro del bloque. Nunca lo rellenes: no `[la ruta]`, sino «¿en qué módulo vive hoy la validación que hay que cambiar?».
+
+Lo mismo con las elecciones. Si hay que optar entre dos caminos defendibles y nadie lo resolvió, no lo zanjes dentro del prompt: el hueco se ve, la elección silenciosa no.
+
+Cuando entregues el prompt, cierra con las decisiones que tomaste tú y no confirmó nadie. Una línea cada una: qué elegiste, por qué, y que se puede cambiar. Van fuera del prompt, no adentro — son para la persona, no para el ejecutor. Si no hay ninguna, no se menciona.
 
 La cabecera del archivo son tres líneas:
 

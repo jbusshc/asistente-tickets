@@ -58,6 +58,8 @@ Antes de clasificar aquí, pedir que el ejecutor busque. Marcar "no existe" algo
 
 **Cumplió el criterio y aun así no sirve.** El criterio estaba incompleto. Es un hallazgo sobre cómo se definió "listo", no sobre el prompt. Se repite más que ningún otro.
 
+**El prompt eligió por la persona.** El resultado hace lo que el prompt pedía, pero el prompt zanjó algo que debió preguntarse. El fallo no es del ejecutor ni de la redacción: la decisión nunca llegó a la superficie. → Anotarlo así en la bitácora, porque es el único fallo que se corrige cambiando el encuadre y no el prompt.
+
 **El resumen de la sesión dice que quedó y no quedó.** El ejecutor reporta lo que intentó, no lo que se verificó. Vale como pista, no como evidencia.
 
 **Funcionó la vez pasada y ahora no.** Sospechar del alcance antes que de la instrucción: lo que suele haber cambiado es cuánto terreno tenía disponible.
